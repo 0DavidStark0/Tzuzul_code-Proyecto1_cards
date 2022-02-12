@@ -1,0 +1,107 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    
+}
+
+
+/* --- LOGO --- */
+.nav-logo{
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px 40px;
+    line-height: 0px;
+    max-width: 115px;
+    max-height: 80px;
+}
+
+
+/* --- MENU --- */
+.nav-menu{
+    display: flex;
+    list-style: none;
+    margin-right: 0px;
+}
+
+.nav-menu-item{
+    font-size: 20px;
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 70px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+.nav-menu-link:hover{
+    background-color: gray;
+    transition: 0.9s;
+}
+
+
+/* --- BUSCADOR --- */
+.nav-buscador{
+    display: inline-block;
+    line-height: 70px;
+    /* padding: 23px; */
+    margin-right: 90px;
+    margin-left: 50px;
+}
+
+.nav-buscador-item-input{
+    background-color: rgb(34, 25, 25);
+    border-color: black;
+    color: rgb(154, 162, 168);
+}
+.nav-buscador-item-input:hover{
+    background-color: rgb(41, 31, 31);
+}
+
+.nav-buscador-item-button{
+    background: rgb(66, 63, 63);
+    border-color: black;
+}
+.nav-buscador-item-button:hover{
+    background-color: gray;
+}
+
+
+/* --- BOTON USUARIO --- */
+.nav-user-button{
+    background-color: rgb(31, 31, 31);
+    border: none;
+    height: 70px;
+    width: 70px;
+    color:gray;
+    font-size: 25px;
+    cursor: pointer;
+}
+.nav-user-button:hover{
+    color: black;
+    background-color: rgb(95, 94, 94);
+    transition: 0.9s;
+}
+
+/* .user-menu{
+    max-height: 0;
+    overflow: hidden;
+}
+
+.user-menu-item{
+    list-style: none;
+    background: rgb(31, 31, 31);
+}
+
+.user-menu-link{
+    color: white;
+    text-decoration: none;
+} */
+
+
+

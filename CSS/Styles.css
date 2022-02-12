@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #5f5e5e;
+    color: white;
+    padding: 0;
+}
+
+.header{
+    background-color: rgb(31, 31, 31);
+    height: 70px;
+    margin-right: 0px;
+    border-radius: 3px;
+}
+
+
+img{
+    width: 200%;
+}

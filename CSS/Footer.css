@@ -1,0 +1,28 @@
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: steelblue;
+    height: 50px;
+    bottom: 0;
+}
+
+footer a{
+    text-decoration: none;
+    border-radius: 3px;
+    color: black;
+}
+/* --- ICONOS DE REDES */
+.div-icon-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-footer-item{
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 20px;
+}
+
